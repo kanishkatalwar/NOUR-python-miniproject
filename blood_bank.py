@@ -7,18 +7,18 @@
     Routine requests ......... CircularQueue (fixed size)
     Undo ..................... Stack
     Compatibility ............ directed graph + BFS (compatibility.py)
-    Reports .................. merge sort, quick sort, binary search (sorting.py)
+    Reports .................. merge sort, quick sort, binary search (ordering.py)
 """
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 
-from circular_queue import CircularQueue
+from request_queue import CircularQueue
 from compatibility import GROUPS, rank_fallbacks
-from hash_table import HashTable
-from heap import Heap
-from linked_list import SinglyLinkedList
-from sorting import binary_search_lower, merge_sort, quick_sort
-from stack import Stack
+from registry import HashTable
+from priority_store import Heap
+from history import SinglyLinkedList
+from ordering import binary_search_lower, merge_sort, quick_sort
+from undo import Stack
 
 MIN_STOCK = 6            # below this a group is LOW
 HIGH_STOCK = 14          # at or above this a group is HIGH

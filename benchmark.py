@@ -5,10 +5,10 @@ Numbers change from machine to machine. The ratios between the rows are what mat
 import random
 from time import perf_counter
 
-from bst import BinarySearchTree
-from hash_table import HashTable
-from heap import Heap
-from sorting import binary_search_lower, bubble_sort, insertion_sort, merge_sort, quick_sort
+from sorted_index import BinarySearchTree
+from registry import HashTable
+from priority_store import Heap
+from ordering import binary_search_lower, bubble_sort, insertion_sort, merge_sort, quick_sort
 
 
 def _time(fn):

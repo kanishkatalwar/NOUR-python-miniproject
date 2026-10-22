@@ -4,15 +4,15 @@ import unittest
 from datetime import date, timedelta
 
 from blood_bank import BloodBank, QUEUE_SIZE
-from bst import BinarySearchTree
-from circular_queue import CircularQueue
+from sorted_index import BinarySearchTree
+from request_queue import CircularQueue
 from compatibility import CAN_DONATE_TO, GROUPS, bfs_donors, rank_fallbacks
 from forecast import exponential_smoothing
-from hash_table import HashTable
-from heap import Heap
-from linked_list import SinglyLinkedList
-from sorting import binary_search_lower, bubble_sort, insertion_sort, merge_sort, quick_sort
-from stack import Stack
+from registry import HashTable
+from priority_store import Heap
+from history import SinglyLinkedList
+from ordering import binary_search_lower, bubble_sort, insertion_sort, merge_sort, quick_sort
+from undo import Stack
 
 
 class StructureTests(unittest.TestCase):

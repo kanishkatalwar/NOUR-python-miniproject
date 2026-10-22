@@ -20,8 +20,8 @@ No packages to install. Pure Python standard library (`http.server`, `unittest`,
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/NOUR.git
-cd NOUR
+git clone https://github.com/kanishkatalwar/NOUR-python-miniproject.git
+cd NOUR-python-miniproject
 python server.py
 ```
 
@@ -38,14 +38,14 @@ python -m unittest
 
 | File | Concept | Used for |
 |---|---|---|
-| `hash_table.py` | Hash table, separate chaining | Donor lookup by ID, duplicate check |
-| `linked_list.py` | Singly linked list with tail pointer | Donation history, one node per visit |
-| `heap.py` | Min-heap and max-heap | Stock by expiry (min), emergency requests (max) |
-| `circular_queue.py` | Circular queue, fixed size | Routine requests, overflow and underflow |
-| `stack.py` | Stack | Undo last action |
+| `registry.py` | Hash table, separate chaining | Donor lookup by ID, duplicate check |
+| `history.py` | Singly linked list with tail pointer | Donation history, one node per visit |
+| `priority_store.py` | Min-heap and max-heap | Stock by expiry (min), emergency requests (max) |
+| `request_queue.py` | Circular queue, fixed size | Routine requests, overflow and underflow |
+| `undo.py` | Stack | Undo last action |
 | `compatibility.py` | Directed graph, BFS | Who can donate to whom, fallback groups |
-| `sorting.py` | Bubble, insertion, merge, quick sort, binary search | Reports and comparisons |
-| `bst.py` | Binary search tree | Compared against the hash table |
+| `ordering.py` | Bubble, insertion, merge, quick sort, binary search | Reports and comparisons |
+| `sorted_index.py` | Binary search tree | Compared against the hash table |
 | `blood_bank.py` | Ties everything together | All business rules |
 | `forecast.py` | Exponential smoothing | Demand forecast |
 | `benchmark.py` | Timing comparisons | Report analysis |
@@ -83,4 +83,7 @@ python -m unittest
 
 ## Team
 
-<!-- Add names and roll numbers -->
+-Sanskruti Sonawane
+-Ridhima Swarup
+-Kanishka Talwar
+-Ishita Thakur
